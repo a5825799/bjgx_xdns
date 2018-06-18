@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>cn.xdns.bjgx</groupId>
+    <artifactId>bjgx_xdns</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>bjgx_xdns_master</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>bjgx_xdns_master_eureka_server</module>
+  	<module>bjgx_xdns_master_eureka_client</module>
+  	<module>bjgx_xdns_master_service_rabbon</module>
+  	<module>bjgx_xdns_master_service_feign</module>
+  	<module>bjgx_xdns_master_service_zuul</module>
+  	<module>bjgx_xdns_master_config_server</module>
+  	<module>bjgx_xdns_master_config_client</module>
+  </modules>
+   
+</project>
